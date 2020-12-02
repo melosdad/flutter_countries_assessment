@@ -11,7 +11,9 @@ Palota assessment starter project | Flutter Countries info
 ## The assessment
 
 ### Overview
-This is a starter project for a simple countries information application. The main is to complete two primary pages. The first page will list African countries and provide a click-through navigation to the second page. The second page will be a country detail page that will show various information about the country.
+This is a starter project for a simple countries information application. The main is to complete two primary pages. The first page will list African countries and provide a click-through navigation to the second page. The second page will be a country detail page that will show various information about the country. 
+
+There are some existing pages, e.g. the landing page [(landing.dart)](lib/views/pages/landing.dart) and about page [(about.dart)](lib/views/pages/about.dart), you can leave those pages as they are.
 
 ### Data Source
 The data will come from an open RESTful API that serves country information. The API documentation can be found [here](https://restcountries.eu/). For the most part the main API called would be the region endpoint using `africa` as the parameter i.e.:
