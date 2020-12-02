@@ -2,10 +2,10 @@ import 'package:countries_info/routes.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(PalotaCountriesAssessmentApp());
 }
 
-class MyApp extends StatelessWidget {
+class PalotaCountriesAssessmentApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
