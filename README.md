@@ -18,7 +18,7 @@ The data will come from an open RESTful API that serves country information. The
 - https://restcountries.eu/rest/v2/region/africa
 
 #### Additional data source
-https://restcountries.eu/ provides country flags in SVG format. This may make it slighly more complicated to deal with in flutter. So you may use a different data source for flags. https://www.countryflags.io/ can be used for this purpose. E.g. https://www.countryflags.io/za/flat/64.png ![South African Logo](https://www.countryflags.io/za/flat/64.png) where `za` is the ISO Alpha 2 Code of South Africa.
+https://restcountries.eu/ provides country flags in SVG format. This may make it slighly more complicated to deal with in flutter. So you may use a different data source for flags. https://flagpedia.net/download/api can be used for this purpose. E.g. https://flagcdn.com/w640/za.png ![South African Logo](https://flagcdn.com/w20/za.png) where `za` is the ISO Alpha 2 Code of South Africa.
 
 ### Required Tasks
 1. Integrate to the Countries API (https://restcountries.eu/) to list countries in the African Region
@@ -28,6 +28,23 @@ https://restcountries.eu/ provides country flags in SVG format. This may make it
 ### Bonus Tasks
 1. Provider client-side search/filter capability to filter the list of countries based on user input. You can put the search/filter input on the app bar of the countries page.
 2. List the bordering countries with their flags in horizontally scrollable component that allows click through to the relevant country. E.g. if you are on the South African country detail, Zimbabwe (or the Zimbabwean flag) should show on the bordering countries component and you should be able to click through to the Zimbabwean country detail page.
+3. Handle errors, write clean code. You can use any pattern your are farmiar with.
+
+
+### Detailed designs
+The detailed designs can be found [here](https://xd.adobe.com/view/6cd9e1d6-fee4-48a9-bd2c-d3a14b844752-398a/): 
+![diagram](https://user-images.githubusercontent.com/4819593/100877718-d9087d00-34b1-11eb-9fb5-e80b7c2b4574.png)
+
+The card on the detail page will need to use data from the API to create one paragraph. The used example is South Africa and the text would be as follows:
+
+```txt
+South Africa covers an area of 1221037 km² and has a population of 55653654 - the nation has a Gini coefficient of 63.1. A resident of South Africa is called a South African. The main currency accepted as legal tender is the South African rand which is expressed with the symbol 'R'. 
+```
+
+Look at the API to figure out where to get the values to populate.
+
+![animation](https://user-images.githubusercontent.com/4819593/100880678-b11b1880-34b5-11eb-88ec-68db6ffcefac.gif)
+
 
 ## Submission
 Once done with the task, commit all your code and push it to your forked remote github repository. Submit a link to your forked repo (with relevant branch - ideally master) to the email which will be provided to you separately when the assessment is assigned to you. 
