@@ -48,6 +48,7 @@ South Africa covers an area of 1221037 km² and has a population of 55653654 - t
 Look at the API to figure out where to get the values to populate.
 
 N.B. The designs repeat some values as they are just for illustration. In your completed app, use the data from the API as is.
+
 ![animation](https://user-images.githubusercontent.com/4819593/100880678-b11b1880-34b5-11eb-88ec-68db6ffcefac.gif)
 
 
