@@ -29,6 +29,9 @@ https://restcountries.eu/ provides country flags in SVG format. This may make it
 1. Provider client-side search/filter capability to filter the list of countries based on user input. You can put the search/filter input on the app bar of the countries page.
 2. List the bordering countries with their flags in horizontally scrollable component that allows click through to the relevant country. E.g. if you are on the South African country detail, Zimbabwe (or the Zimbabwean flag) should show on the bordering countries component and you should be able to click through to the Zimbabwean country detail page.
 
+## Submission
+Once done with the task, commit all your code and push it to your forked remote github repository. Submit a link to your forked repo (with relevant branch - ideally master) to the email which will be provided to you separately when the assessment is assigned to you. 
+
 ---
 
 
