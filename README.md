@@ -19,6 +19,8 @@ There are some existing pages, e.g. the landing page [(landing.dart)](lib/views/
 The data will come from an open RESTful API that serves country information. The API documentation can be found [here](https://restcountries.eu/). For the most part the main API called would be the region endpoint using `africa` as the parameter i.e.:
 - https://restcountries.eu/rest/v2/region/africa
 
+N.B. The data from this API is not 100% accurate, use the data as is.
+
 #### Additional data source
 https://restcountries.eu/ provides country flags in SVG format. This may make it slighly more complicated to deal with in flutter. So you may use a different data source for flags. https://flagpedia.net/download/api can be used for this purpose. E.g. https://flagcdn.com/w640/za.png ![South African Logo](https://flagcdn.com/w20/za.png) where `za` is the ISO Alpha 2 Code of South Africa.
 
@@ -45,6 +47,7 @@ South Africa covers an area of 1221037 km² and has a population of 55653654 - t
 
 Look at the API to figure out where to get the values to populate.
 
+N.B. The designs repeat some values as they are just for illustration. In your completed app, use the data from the API as is.
 ![animation](https://user-images.githubusercontent.com/4819593/100880678-b11b1880-34b5-11eb-88ec-68db6ffcefac.gif)
 
 
